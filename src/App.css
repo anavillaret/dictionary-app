@@ -2,8 +2,18 @@ body {
   background-color: #121212;
 }
 
+hr {
+  color: antiquewhite;
+}
+
 .App-logo {
-  max-width: 500px;
+  max-width: 25rem;
   display: block;
   margin: 0 auto;
+}
+
+.App-footer {
+  color: #fff;
+  text-align: center;
+  margin: 1.875rem 0;
 }
