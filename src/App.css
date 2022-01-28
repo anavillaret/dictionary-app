@@ -3,7 +3,7 @@ body {
 }
 
 hr {
-  color: antiquewhite;
+  color: #faec51;
 }
 
 .App-logo {
@@ -19,4 +19,9 @@ hr {
   color: #fff;
   text-align: center;
   margin: 1.875rem 0;
+}
+
+.Results {
+  color: #ffff;
+  opacity: 77%;
 }
