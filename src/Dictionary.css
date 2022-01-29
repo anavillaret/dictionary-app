@@ -1,9 +1,13 @@
 .App h1 {
-  color: #ff5f1f;
+  color: #1f51ff;
   text-align: center;
   font-family: "Zen Kurenaido", sans-serif;
   font-size: 3rem;
   letter-spacing: 1rem;
+}
+
+.dictionary h4 {
+  color: #faec51;
 }
 
 .dictionary section {
@@ -24,4 +28,12 @@
   color: #faec51;
   opacity: 55%;
   font-size: 13px;
+}
+.Results {
+  color: #ffff;
+  opacity: 77%;
+}
+
+.Results h2 {
+  color: #1f51ff;
 }
