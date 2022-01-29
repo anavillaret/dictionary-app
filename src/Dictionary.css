@@ -1,7 +1,27 @@
 .App h1 {
-  color: #faec51;
+  color: #ff5f1f;
   text-align: center;
   font-family: "Zen Kurenaido", sans-serif;
   font-size: 3rem;
   letter-spacing: 1rem;
+}
+
+.dictionary section {
+  padding: 30px;
+  border: 1px dashed #faec51;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  color: #333;
+}
+
+.Hint {
+  padding: 10px 0 0 0;
+  color: #faec51;
+  opacity: 55%;
+  font-size: 13px;
 }
