@@ -1,5 +1,5 @@
 .App h1 {
-  color: #1f51ff;
+  color: var(--secondary-color);
   text-align: center;
   font-family: "Zen Kurenaido", sans-serif;
   font-size: 3rem;
@@ -7,12 +7,12 @@
 }
 
 .dictionary h4 {
-  color: #faec51;
+  color: var(--branding-color);
 }
 
 .dictionary section {
   padding: 30px;
-  border: 1px dashed #faec51;
+  border: 1px dashed var(--branding-color);
   border-radius: 10px;
   margin: 20px 0;
 }
@@ -25,7 +25,7 @@
 
 .Hint {
   padding: 10px 0 0 0;
-  color: #faec51;
+  color: var(--branding-color);
   opacity: 55%;
   font-size: 13px;
 }
@@ -35,5 +35,5 @@
 }
 
 .Results h2 {
-  color: #1f51ff;
+  color: var(--secondary-color);
 }

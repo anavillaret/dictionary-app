@@ -1,9 +1,14 @@
+:root {
+  --branding-color: #faec51;
+  --secondary-color: #1f51ff;
+}
+
 body {
   background-color: #121212;
 }
 
 hr {
-  color: #faec51;
+  color: var(--branding-color);
 }
 
 a {
@@ -20,7 +25,7 @@ a {
 }
 
 .App-footer {
-  color: #1f51ff;
+  color: var(--secondary-color);
   text-align: center;
   margin: 1.875rem 0;
 }
