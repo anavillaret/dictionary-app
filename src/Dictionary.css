@@ -37,3 +37,29 @@
 .Results h2 {
   color: var(--secondary-color);
 }
+
+.Definition {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.Example {
+  font-size: 14px;
+  opacity: 0.7;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.Synonyms ul {
+  margin: 15px 0 15px;
+  padding: 0;
+}
+
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--secondary-color);
+  opacity: 80%;
+}

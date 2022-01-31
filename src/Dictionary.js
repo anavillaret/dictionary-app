@@ -44,7 +44,7 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="Hint">
-            Suggestions: tulip, planetarium, monk, desert...
+            Suggestions: geranium, monk, interim, tranplanetarium...
           </div>
         </section>
         <Results results={results} />
