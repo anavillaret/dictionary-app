@@ -14,7 +14,15 @@ function App() {
           </main>
         </header>
         <footer className="App-footer">
-          <small>Coded by Ana Martins</small>
+          <small>
+            Coded by{" "}
+            <a href="https://nifty-clarke-f085a7.netlify.app">Ana Martins </a>
+            and is{" "}
+            <a href="https://pensive-goldstine-5d831a.netlify.app">
+              open-sourced
+            </a>{" "}
+            on <i class="fab fa-github"></i>
+          </small>
         </footer>
       </div>
     </div>

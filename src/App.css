@@ -15,6 +15,11 @@ a {
   color: #faec51;
 }
 
+.App {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
 .App-logo {
   max-width: 25rem;
   display: block;
