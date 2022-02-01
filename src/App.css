@@ -24,13 +24,47 @@ a {
   max-width: 25rem;
   display: block;
   margin: 0 auto;
-  position: relative;
-  left: 0.625rem;
-  top: 0.5rem;
 }
 
 .App-footer {
   color: #ffff;
   text-align: center;
   margin: 1.875rem 0;
+  font-size: 20px;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .App {
+    max-width: 46.25rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .App {
+    max-width: 31.25rem;
+  }
+  .App h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .App {
+    max-width: 23.125rem;
+  }
+
+  .App h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 240px) {
+  .App {
+    max-width: 14.375rem;
+  }
+
+  .App h1 {
+    font-size: 1rem;
+  }
 }
