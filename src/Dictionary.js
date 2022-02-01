@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
+import Photos from "./Photos";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
@@ -14,7 +15,7 @@ export default function Dictionary(props) {
   }
 
   function handlePexelsResponse(response) {
-    console.log(response.data);
+    setPhotos(response.data.photos);
   }
 
   function search() {
@@ -25,7 +26,7 @@ export default function Dictionary(props) {
     //
     let apiKeyPexels =
       "563492ad6f91700001000001c1ded0430c9144f590b7abe3e3ccf5a7";
-    let apiUrlPexels = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+    let apiUrlPexels = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     axios
       .get(apiUrlPexels, {
         headers: { Authorization: `Bearer ${apiKeyPexels}` },
@@ -63,6 +64,7 @@ export default function Dictionary(props) {
           </div>
         </section>
         <Results results={results} />
+        <Photos photos={photos} />
       </div>
     );
   } else {
