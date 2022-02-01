@@ -44,6 +44,9 @@ a {
   .App {
     max-width: 31.25rem;
   }
+  .App-logo {
+    max-width: 20rem;
+  }
   .App h1 {
     font-size: 2rem;
   }
@@ -54,8 +57,12 @@ a {
     max-width: 23.125rem;
   }
 
+  .App-logo {
+    max-width: 20rem;
+  }
+
   .App h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -65,6 +72,6 @@ a {
   }
 
   .App h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }

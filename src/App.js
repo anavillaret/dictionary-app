@@ -16,9 +16,19 @@ function App() {
         <footer className="App-footer">
           <small>
             Coded by{" "}
-            <a href="https://nifty-clarke-f085a7.netlify.app">Ana Martins </a>
+            <a
+              href="https://nifty-clarke-f085a7.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ana Martins{" "}
+            </a>
             and is{" "}
-            <a href="https://pensive-goldstine-5d831a.netlify.app">
+            <a
+              href="https://github.com/anavillaret/dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
               open-sourced
             </a>{" "}
             on <i class="fab fa-github"></i>
