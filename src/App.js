@@ -21,7 +21,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              Ana Martins{" "}
+              Ana Martins
             </a>
             and is{" "}
             <a
