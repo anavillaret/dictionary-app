@@ -22,7 +22,7 @@ function App() {
               rel="noreferrer"
             >
               Ana Martins
-            </a>
+            </a>{" "}
             and is{" "}
             <a
               href="https://github.com/anavillaret/dictionary-app"
